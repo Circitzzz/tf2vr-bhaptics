@@ -1,0 +1,13 @@
+{
+  "Name": "TF2VR.SensoryEvents",
+  "Description": "Sends Titanfall 2 gameplay events (hits, weapons, movement, titan) to local sensory bridges: bHaptics (port 47770) and Omara scent (port 47771). Read-only; changes no gameplay. Requires the -allowlocalhttp launch option.",
+  "Version": "1.0.0",
+  "LoadPriority": 3,
+  "Scripts": [
+    {
+      "Path": "sensory_events.nut",
+      "RunOn": "CLIENT",
+      "ClientCallback": { "After": "TFSE_Init" }
+    }
+  ]
+}

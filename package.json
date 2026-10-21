@@ -1,0 +1,8 @@
+{
+  "title": "TF2VR bHaptics",
+  "slug": "TF2VR-bHaptics",
+  "version": "1.0.0",
+  "bridge_exe": "TF2VR bHaptics.exe",
+  "bridge_script": "bhaptics_bridge.py",
+  "installer_script": "install_bhaptics.py"
+}
